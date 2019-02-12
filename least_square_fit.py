@@ -1,4 +1,7 @@
-# coding: utf-8
+from numpy import *
+from matplotlib import *
+from matplotlib.pyplot import *
+from numpy.linalg import *
 print('<<< this script gives the least-square-fit of a data file with 2 data coloumns spearated by a delimiter >>>\n')
 x=input('enter the name of data file along with extension >> ')
 d=input('enter the delimiter >> ')
